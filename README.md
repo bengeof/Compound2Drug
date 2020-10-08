@@ -6,3 +6,7 @@ social media users have been developed through the use of Machine/Deep learning 
 
 ## Methods
 > The bindingDB database was downloaded and a network was constructed using NetworkX wherein the nodes where compounds and proteins and edges where the interactions between them. Lower the IC50 value for a compound to inhibit a particular protein, the shorter the edges were that link them together. Each compound is identified using the PubChem Compound ID (CID) and proteins are identified with the Protein Data Bank ID (PDB ID).To generate 2D embeddings of the network, the node2vec [29] python package was used. The module learnt the embeddings of 65 graphs and they were used to perform a machine learning/deep learning based multi-class classification .
+
+
+
+## Research paper : [LINK](https://chemrxiv.org/articles/preprint/Compound2Drug_a_Machine_deep_Learning_Tool_for_Predicting_the_Bioactivity_of_PubChem_Compounds/13052951/1)
