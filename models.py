@@ -1,5 +1,6 @@
 import tensorflow as tf
 
+# tensorflow model 
 def graph_model(out_dim):
     return tf.keras.Sequential([
         tf.keras.layers.Dense(128, activation="relu", input_shape=(32,)),
