@@ -14,9 +14,11 @@ cid_mapping = get_cid_mapping()
 
 graph_mapping = {}
 
+# function to check the most recurring graph number in the list of graphs
 def most_frequent(List):
     return max(set(List), key=List.count)
 
+# function to check which graph the current cid is present in 
 def in_graph(cid):
     return True in [cid in mapping for mapping in cid_mapping]
 
