@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Home page</title>
+  </head>
+  <body>
+    <h1>compound2drug</h1>
+    <form action="{% urls 'result' %}">
+      {% csrf_token %}
+      
+      <p>CID:</p>
+      <input type="text" name="CID">
+      <br>
+      
+      <input type="submit" value='Get Predictions'>
+    </form>
+  </body>
+</html>
