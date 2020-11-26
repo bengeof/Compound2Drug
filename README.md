@@ -9,4 +9,4 @@ social media users have been developed through the use of Machine/Deep learning 
 
 
 
-## Research paper : [LINK](https://chemrxiv.org/articles/preprint/Compound2Drug_a_Machine_deep_Learning_Tool_for_Predicting_the_Bioactivity_of_PubChem_Compounds/13052951/1)
+
